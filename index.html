@@ -6,50 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bodegas Bordón</title>
-    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
     <div class="contenedor">
-        <nav class="navegacion">
-            <img src="fotos/header/logo2.png" alt="logo empresa" class="logonav">
-            <ul class="menu">
-                <li>
-                    <a href="#inicio0">Inicio</a>
-                </li>
-                <li>
-                    <a href="#info0">Informacíon</a>
-                </li>
-                <li>
-                    <a href="#var">Variedades</a>
-                </li>
-                <li>
-                    <a href="#ub">Ubicacíon</a>
-                </li>
-                <li>
-                    <a href="#contacto1">Contacto</a>
-                </li>
-
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#inicio0">
+                  <img src="fotos/header/logo2.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="#inicio0">Inicio</a>
+                  <a class="nav-link" href="#info0">Informacíon</a>
+                  <a class="nav-link" href="#var">Variedades</a>
+                  <a class="nav-link" href="#ub">Ubicacíon</a>
+                  <a class="nav-link" href="#contac0">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
         <hr>
         <header class="main">
-            <h2 id="inicio0" >Bodegas Bordón</h2>
+            <h2 id="inicio0">Bodegas Bordón</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, officia!</p>
         </header>
         <div class="info">
             <h2 id="info0">Informacíon</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quae. Laboriosam autem, dicta, cupiditate repellendus illum nostrum in nulla ipsum molestias quaerat quasi animi quibusdam ullam cum nisi illo rerum.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque magnam architecto autem dolorem! Non illum quidem, praesentium harum a, ducimus, amet est deleniti earum cupiditate nulla iusto dolor accusantium soluta.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure necessitatibus magni veniam eos dolores repellendus numquam officiis accusantium repudiandae, ut, doloremque tempore minima praesentium, officia deleniti eaque tenetur exercitationem? </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quae. Laboriosam autem, dicta, cupiditate
+                repellendus illum nostrum in nulla ipsum molestias quaerat quasi animi quibusdam ullam cum nisi illo
+                rerum.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque magnam architecto autem dolorem! Non
+                illum quidem, praesentium harum a, ducimus, amet est deleniti earum cupiditate nulla iusto dolor
+                accusantium soluta.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure necessitatibus magni veniam eos
+                dolores repellendus numquam officiis accusantium repudiandae, ut, doloremque tempore minima praesentium,
+                officia deleniti eaque tenetur exercitationem? </p>
         </div>
-        
+
         <h2 id="var">Variedades</h2>
         <div class="inicio1">
-            
+
             <div>
                 <img src="fotos/main/copas.jpg" alt="copas">
                 <h3>Lorem, ipsum dolor.</h3>
@@ -81,31 +89,40 @@
                     similique expedita.</p>
 
             </div>
-        
+
         </div>
         <h2 id="ub">Ubicacíon</h2>
         <div class="ubicacion">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae excepturi eaque dignissimos reiciendis quidem odio quas incidunt eos, nobis inventore, libero distinctio pariatur architecto! Dolores voluptatem ipsa deserunt quis quos.</p>
-            <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13134.081221281227!2d-68.34321245638226!3d-34.616289622058645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1648309446931!5m2!1ses!2sar" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae excepturi eaque dignissimos reiciendis
+                quidem odio quas incidunt eos, nobis inventore, libero distinctio pariatur architecto! Dolores
+                voluptatem ipsa deserunt quis quos.</p>
+            <div class="mapa"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13134.081221281227!2d-68.34321245638226!3d-34.616289622058645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1648309446931!5m2!1ses!2sar"
+                    width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
-        <h2 id="contacto1">Contacto</h2></div>
-        <div class="form">
-            <form class="formu">
-                    <li> <label for="name">Ingrese su nombre</label></li>
-                    <li> <input type="text" name="nombre" placeholder="Juan Carlos" id="nombre" required> </li>
-                    <li><label for="email">Ingrese su email</label> </li>
-                    <li> <input type="email" name="correo" placeholder="ejemplo@correo.com" id="correo" required> </li>
-                    <li> <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Su consulta" required></textarea> </li>
-                    <li><button type="submit">Enviar</button> </li>
-                </form></li>
-            </div>
-        </div>
+        <h2 id="contac0">Contacto</h2>
+    </div>
+    <div class="form">
+        <form class="formu">
+            <li> <label for="name">Ingrese su nombre</label></li>
+            <li> <input type="text" name="nombre" placeholder="Juan Carlos" id="nombre" required> </li>
+            <li><label for="email">Ingrese su email</label> </li>
+            <li> <input type="email" name="correo" placeholder="ejemplo@correo.com" id="correo" required> </li>
+            <li> <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Su consulta"
+                    required></textarea> </li>
+            <li><button type="submit">Enviar</button> </li>
+        </form>
+        </li>
+    </div>
+    </div>
 
     </div>
     <footer>
         <p>Visita Mendoza <a href="https://www.mendoza.gov.ar/">Gobierno de Mendoza</a></p>
         <p>Creado por la comision 28135
-      </footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 

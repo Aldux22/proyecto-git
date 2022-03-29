@@ -12,45 +12,16 @@ body {
     font-family: 'Roboto', sans-serif;
 
 }
-a {
-    color: black;
-    text-decoration: none;
-}
 
-ul {
-    list-style: none;
-}
-.container {
-    width: 80%;
-    margin: auto;
-}
 
-.navegacion {
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 20px 0;
-
-}
-a {
-    font-weight: bold;
-}
-.logonav {
+.container-fluid img {
+    
     width: 150px;
-    padding: 25px;
+    
 }
 
-.navegacion ul {
-    display: flex;
-}
-.navegacion ul li {
-    padding: 50px;
-}
-.navegacion ul.menu {
-    flex: 1;
-    margin-left: 100px ;
+.navbar-nav {
+    padding-left: 350px;
 }
 hr {
     margin: 5px 0;
@@ -99,7 +70,8 @@ hr {
         
     }
     .inicio1 h3 {
-        font-size: 20px;
+        font-size: 22px;
+        text-align: center;
         margin: 10px 0;
     }
 .ubicacion {
@@ -124,7 +96,9 @@ hr {
     
 }
 #ub {
+    font-size: 22px;
     text-align: center;
+    margin: 10px 0;
 }
 .form {
     display: flex;
