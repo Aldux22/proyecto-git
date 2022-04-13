@@ -1,0 +1,22 @@
+@mixin  flex ($display, $justify-content, $align-items, $direccion){
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $direccion;
+    
+}
+
+%flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+
+}
+

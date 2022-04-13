@@ -7,12 +7,15 @@ $colorh2: rgb(252 215 2);
 
 }
 
+@import url(mapa.scss);
+@import url(_mix.scss);
+
 
 body {
     background: rgb(199, 196, 196);
-    color: black;
+    color: $bodega;
     background-color: #b9b9b8;
-    font-size: 16px;
+    font-size: $bodega;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -38,9 +41,7 @@ ul {
 
 .navegacion {
     font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @extend %flex;
     height: 60px;
     padding: 20px 0;
     ul {
@@ -92,10 +93,8 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+    @include flex (flex, flex-end, center, column );
+
     color: white;
 
     img {
@@ -110,10 +109,7 @@ hr {
 
 
 .card-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px;
-    margin: 10px 0;
+    @extend %grid;
 
     card {
         width: 100%;
@@ -148,11 +144,10 @@ hr {
     width: 80%;
     margin: auto;
     background-color: rgb(236, 230, 230);
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
+    @extend %flex; 
 }
+
+
 
 .parra {
     padding: 50px;
@@ -168,10 +163,8 @@ hr {
     width: 80%;
     height: 400px;
     margin: auto;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+@extend %flex;
     background-color: rgb(236, 230, 230);
-    display: flex;
+    
 
 }
